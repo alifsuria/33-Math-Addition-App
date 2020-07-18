@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+}
+
+#first-num {
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+}
+
+#second-num {
+  border: 2px solid blue;
+  width: 100px;
+  height: 100px;
+}
+
+#first-num,
+#second-num,
+#sign,
+#equal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
